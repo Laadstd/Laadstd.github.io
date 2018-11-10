@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("afbeelding.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+
+.tekst {
+	background-color: #0d0d0d;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: white;
+	padding: 7px 100px;
+	position: fixed;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 48px;
+	top: 325px;
+	right: 175px;
+	left: 175px;
+	opacity: 0.8;
+}
