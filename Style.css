@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-image: url("afbeelding.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.tekst {
+	background-color: #0d0d0d;
+	text-align: left;
+	padding: 150px;
+	color: white;
+	padding: 7px 50px;
+	position: fixed;
+	top: 35%;
+	left: 20%;
+	right: 20%;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	opacity: 0.8;
+}
+
+h1 {
+	font-size: 26px; 
+    font-size: 5vw;
+}
+
+}
+#fade {
+    -webkit-animation: fadein 2.4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.4s; /* Firefox < 16 */
+            animation: fadein 2.4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
